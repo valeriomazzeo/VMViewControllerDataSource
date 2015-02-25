@@ -7,12 +7,17 @@
 //
 
 #import "VMAppDelegate.h"
+#import "VMViewController.h"
 
 @implementation VMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[VMViewController alloc] initWithStyle:UITableViewStylePlain]];
+    
     return YES;
 }
 							

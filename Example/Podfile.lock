@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  VMViewControllerDataSource: 8980850ca95487047bb9907e9b8deeeb08f51176
+  VMViewControllerDataSource: 16a26a198a0d2e225fe39e11c3493bdf14f48aa6
 
 COCOAPODS: 0.35.0
