@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_VMViewControllerDataSource_VMViewControllerDataSource : NSObject
+@end
+@implementation PodsDummy_Pods_VMViewControllerDataSource_VMViewControllerDataSource
+@end

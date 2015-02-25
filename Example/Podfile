@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'VMViewControllerDataSource', :exclusive => true do
+  pod "VMViewControllerDataSource", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "VMViewControllerDataSource", :path => "../"
+
+  
+end
