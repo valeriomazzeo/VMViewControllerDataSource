@@ -4,9 +4,9 @@
 [![Pod Platform](http://img.shields.io/cocoapods/p/VMViewControllerDataSource.svg?style=flat)]()
 [![Pod License](http://img.shields.io/cocoapods/l/VMViewControllerDataSource.svg?style=flat)](http://opensource.org/licenses/MIT)
 
-## GETTING STARTED
+## OVERVIEW
 
-The VMViewControllerDataSource class implements a specialized datasource object that renders reusable UIViewController object instead of cells objects.
+The VMViewControllerDataSource class implements a specialized datasource object that renders reusable UIViewController objects instead of cells objects.
 
 ## Installation
 
@@ -17,13 +17,13 @@ it, simply add the following line to your Podfile:
     
 ## USAGE
 
-To run the example project; clone the repo, and run `pod install` from the Example directory first.
-
-Then import the main header:
+Just import the main header whenever you need on your project source files.
 
 ```
 #import <VMViewControllerDataSource/VMViewControllerDataSource.h>
 ```
+
+To run the example project; clone the repo, and run `pod install` from the Example directory first.
 
 ## LICENSE
 
