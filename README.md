@@ -8,6 +8,10 @@
 
 The VMViewControllerDataSource class implements a specialized datasource object that renders reusable UIViewController objects instead of cells objects.
 
+In order to achieve that, the view controller data source implements either `tableView:cellForRowAtIndexPath:` or `collectionView:cellForItemAtIndexPath:`
+Every row or item created with a view controller data source is either a `VMViewControllerTableViewDataSourceCell` or a `VMViewControllerCollectionViewDataSourceCell` which has the view controller's view attached to its subviews hierarchy.
+The view controller data source acts as datasource for your `UITableView` or `UICollectionView`. Through message forwarding your view controller can implement the `VMViewControllerTableViewDataSource` protocol and can respond to all the methods that are needed to build the table or the collection view.
+
 ## Installation
 
 VMViewControllerDataSource is available through [CocoaPods](http://cocoapods.org). To install
